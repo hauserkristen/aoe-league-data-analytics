@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Generate Dataframes",
+            "type": "python",
+            "request": "launch",
+            "program": "generate_data_views.py",
+            "console": "integratedTerminal",
+            "args": [ "5" ]
+        },
+        {
+            "name": "Python: App",
+            "type": "python",
+            "request": "launch",
+            "program": "index.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Read Game File",
+            "type": "python",
+            "request": "launch",
+            "program": "read_game_file.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

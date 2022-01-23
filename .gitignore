@@ -1,0 +1,6 @@
+*.pyc
+data_cache/
+data_frames/
+temp_season_data/
+game_files/
+db_conn.json
